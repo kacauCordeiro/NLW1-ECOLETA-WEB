@@ -1,0 +1,85 @@
+#modal {
+  width: 100%;
+  height: 100%;
+  background-color: #0E0A14ef;
+  display: flex;
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 400ms;
+}
+
+#modal .content{
+  color: white;
+  width: 550px;
+}
+
+#modal header{
+  display: flex;
+  align-items:  center;
+  justify-content:  space-between;
+
+}
+
+#modal header h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#modal form input[type=text]{
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 8px 0 0 8px;
+  height: 72px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  color: #6C6C80;
+}
+
+#modal form .field label{
+  font-size: 14px;
+  line-height: 16px;
+  display: block;
+  margin: 8px;
+}
+
+#modal form button:hover {
+  background: #2FB86E;
+}
+#modal form button {
+  width: 350px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  align-self: flex-end;
+  margin-top: 40px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+#modal a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#modal form .field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 350px;
+  appearance: none;
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  color: #6C6C80;
+}
